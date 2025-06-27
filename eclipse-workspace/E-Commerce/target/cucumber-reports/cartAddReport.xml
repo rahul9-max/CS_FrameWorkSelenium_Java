@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="13.807" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-23T11:00:48.064835900Z">
-<testcase classname="Full Signup, Login, and Cleanup Flow" name="User removes a product from the cart" time="13.059">
+<testsuite name="Cucumber" time="14.564" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-27T12:00:18.299368100Z">
+<testcase classname="Full Signup, Login, and Cleanup Flow" name="Verify navigation and product display for brand pages" time="13.934">
 <system-out><![CDATA[
 Given User launches the browser.............................................passed
 And User navigates to "http://automationexercise.com".......................passed
 Then Home page should be visible successfully...............................passed
-When User add products to cart..............................................passed
-And User clicks on 'Cart' button on RemoveCart page.........................passed
-Then Cart page should be displayed..........................................passed
-When User clicks 'X' button corresponding to the product....................passed
-Then Product should be removed from the cart................................passed
+And User clicks on "Products" button on BrandPage...........................passed
+Then Brands are visible on the left side bar................................passed
+When User clicks on any brand name..........................................passed
+Then User is navigated to brand page and brand products are displayed.......passed
+When User clicks on another brand name from the left side bar...............passed
+Then User is navigated to that brand page and relevant products are displayed.passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,5 +1,7 @@
 Pages\SubscriptionPage.class
+StepDefinitions\CategoryProductDefinition.class
 StepDefinitions\ContactDefinition.class
+Pages\CategoryPage.class
 Pages\NegativeLogin.class
 Pages\HomePage.class
 Pages\SearchPage.class
@@ -12,6 +14,7 @@ Pages\DeletePage.class
 StepDefinitions\CartDefinition.class
 StepDefinitions\SearchDefinition.class
 Pages\RegisterPage.class
+StepDefinitions\BrandProductDefinition.class
 Pages\LoginPage.class
 StepDefinitions\ProductDefinition.class
 Pages\VerifyPage.class
@@ -19,6 +22,7 @@ StepDefinitions\TearDownSteps.class
 TestRunner\Test.class
 Pages\RemoveCartPage.class
 StepDefinitions\EndToEndDefinition.class
+Pages\BrandPage.class
 StepDefinitions\SubscriptionDefinition.class
 StepDefinitions\RegisterWhileCheckoutDef.class
 StepDefinitions\SignupNegativeSteps.class

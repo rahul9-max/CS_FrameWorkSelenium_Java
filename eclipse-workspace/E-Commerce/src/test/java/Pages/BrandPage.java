@@ -36,7 +36,7 @@ public class BrandPage {
     }
 
     public boolean isBrandsVisible() {
-        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 400)");
+        ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 600)");
         return brandsTitle.isDisplayed();
     }
 
