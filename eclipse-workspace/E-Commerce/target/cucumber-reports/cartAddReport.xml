@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="13.807" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-23T11:00:48.064835900Z">
+<testcase classname="Full Signup, Login, and Cleanup Flow" name="User removes a product from the cart" time="13.059">
+<system-out><![CDATA[
+Given User launches the browser.............................................passed
+And User navigates to "http://automationexercise.com".......................passed
+Then Home page should be visible successfully...............................passed
+When User add products to cart..............................................passed
+And User clicks on 'Cart' button on RemoveCart page.........................passed
+Then Cart page should be displayed..........................................passed
+When User clicks 'X' button corresponding to the product....................passed
+Then Product should be removed from the cart................................passed
+]]></system-out>
+</testcase>
+</testsuite>

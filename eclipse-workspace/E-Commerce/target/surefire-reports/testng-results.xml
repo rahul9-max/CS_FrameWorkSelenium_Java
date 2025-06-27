@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-23T16:30:46 IST" name="Surefire suite" finished-at="2025-06-23T16:31:02 IST" duration-ms="15382">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@647e447]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-06-23T16:30:46 IST" name="Surefire test" finished-at="2025-06-23T16:31:02 IST" duration-ms="15382">
+      <class name="TestRunner.Test">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Test@647e447]" started-at="2025-06-23T16:30:46 IST" name="setUpClass" finished-at="2025-06-23T16:30:48 IST" duration-ms="1638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21e20ad5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="suiteStart()[pri:0, instance:TestRunner.Test@647e447]" started-at="2025-06-23T16:30:48 IST" name="suiteStart" finished-at="2025-06-23T16:30:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteStart -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@647e447]" started-at="2025-06-23T16:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-23T16:31:01 IST" duration-ms="13463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User removes a product from the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Full Signup, Login, and Cleanup Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="suiteEnd()[pri:0, instance:TestRunner.Test@647e447]" started-at="2025-06-23T16:31:01 IST" name="suiteEnd" finished-at="2025-06-23T16:31:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteEnd -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Test@647e447]" started-at="2025-06-23T16:31:01 IST" name="tearDownClass" finished-at="2025-06-23T16:31:02 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
