@@ -1,5 +1,7 @@
+C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\BrandPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\CartAddPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\CartPage.java
+C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\CategoryPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\ContactPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\DeletePage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\HomePage.java
@@ -15,8 +17,10 @@ C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\SignupNegativePa
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\SignUpPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\SubscriptionPage.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\Pages\VerifyPage.java
+C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\BrandProductDefinition.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\CartAddDefinition.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\CartDefinition.java
+C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\CategoryProductDefinition.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\ContactDefinition.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\EndToEndDefinition.java
 C:\Users\thebe\eclipse-workspace\E-Commerce\src\test\java\StepDefinitions\Hooks.java
