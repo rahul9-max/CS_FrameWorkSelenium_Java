@@ -1,0 +1,13 @@
+
+# Ignore Eclipse and build files
+.classpath
+.project
+.settings/
+target/
+test-output/
+screenshots/
+*.class
+*.log
+*.xml
+*.json
+*.html
