@@ -48,7 +48,7 @@ public void user_clicks_on_button(String signup) {
 	    home.clickSignupLogin();	
 	}
 }
-@Then("'New User Signup!' should be visible for signup")
+@Then("'New User Signup!' should be visible")
 public void new_user_signup_should_be_visible() {
     Assert.assertTrue(signup.isSignUpPageDisplayed(), "'New User Signup!' text not visible");
 }

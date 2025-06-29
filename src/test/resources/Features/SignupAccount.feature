@@ -6,7 +6,7 @@ Feature: Full Signup, Login, and Cleanup Flow
     When User navigates to "http://automationexercise.com"
     Then Home page should be visible
     When User clicks on 'Signup / Login' button
-    Then 'New User Signup!' should be visible for signup
+    Then 'New User Signup!' should be visible
     When User enters name and email
     And Clicks on Signup button
     Then Enter Account Information page should be visible
@@ -26,7 +26,7 @@ Feature: Full Signup, Login, and Cleanup Flow
     When User navigates to "https://automationexercise.com"
     Then Home page should be visible
     When User clicks on 'Signup / Login' button
-    Then 'New User Signup!' should be visible for signup
+    Then 'New User Signup!' should be visible
     When User enters name "Rahul" and already registered email "rahul.test123@testmail.com"
     And Clicks on Signup button
     Then Error message "Email Address already exist!" should be visible
@@ -223,7 +223,7 @@ Scenario: Verify navigation and product display for brand pages
     When User clicks on another brand name from the left side bar
     Then User is navigated to that brand page and relevant products are displayed
     
-  @SearchAndCartAfterLogin
+ @SearchAndCartAfterLogin
 	  Scenario: Verify searched products are retained in cart after user logs in
     Given User launches the browser
     And User navigates to "http://automationexercise.com"
@@ -239,7 +239,6 @@ Scenario: Verify navigation and product display for brand pages
     When User clicks on "Signup / Login" button and submits login credentials
     And User navigates back to "Cart" page on SearchAndCartAfterLogin page
     Then Previously added products should still be visible in cart
-    
 
   @teardown
   Scenario: Delete test account
