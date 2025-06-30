@@ -1,0 +1,15 @@
+# Eclipse & Maven junk
+.classpath
+.project
+.settings/
+target/
+bin/
+
+# Test reports & screenshots
+test-output/
+screenshots/
+*.png
+
+# OS files
+.DS_Store
+Thumbs.db
