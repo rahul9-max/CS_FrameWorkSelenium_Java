@@ -13,3 +13,7 @@ screenshots/
 # OS files
 .DS_Store
 Thumbs.db
+target/
+test-output/
+*.class
+screenshots/
