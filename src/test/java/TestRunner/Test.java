@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
     features = "src/test/resources/Features",
     glue = {"StepDefinitions"},  
-    tags = "@RecommendedItemsCart",  // only run scenarios with this tag
+    tags = "@Checkout_Address_Verification",  // only run scenarios with this tag
     plugin = {
         "pretty",
         "html:target/cucumber-reports/cartAddReport.html",

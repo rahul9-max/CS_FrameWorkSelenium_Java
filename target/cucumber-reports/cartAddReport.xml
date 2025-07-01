@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="37.874" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-30T09:55:41.198492500Z">
-<testcase classname="Full Signup, Login, and Cleanup Flow" name="Verify that recommended items can be added to cart" time="36.871">
+<testsuite name="Cucumber" time="63.872" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-01T12:01:19.908694900Z">
+<testcase classname="Full Signup, Login, and Cleanup Flow" name="Verify address details in checkout page" time="63.169">
 <system-out><![CDATA[
 Given User launches the browser.............................................passed
 And User navigates to "http://automationexercise.com".......................passed
 Then Home page should be visible successfully...............................passed
-When User scrolls down to the bottom of the page............................passed
-Then Recommended items section should be visible............................passed
-When User clicks on 'Add To Cart' for a recommended product.................passed
-And User clicks on 'View Cart' button from recommended product..............passed
-Then Recommended product should be visible in the cart page.................passed
+When the user clicks on 'Signup / Login' button.............................passed
+And fills in all required details to create a new account...................passed
+Then 'ACCOUNT CREATED!' message should be visible after successfull signup..passed
+And the user clicks the 'Continue' button after signup......................passed
+Then 'Logged in as Rahul' should be visible at the top after signup.........passed
+When the user adds products to the cart.....................................passed
+And clicks the 'View Cart' button to check the cart.........................passed
+Then the cart page should be displayed......................................passed
+When the user clicks on 'Proceed To Checkout' for reviewing address.........passed
+Then the delivery address should match the registration address.............passed
+And the billing address should match the registration address...............passed
+When the user clicks the 'Delete Account' button after reviewing address....passed
+Then 'ACCOUNT DELETED!' message should be displayed on page.................passed
+And the user clicks the 'Continue' button finally...........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -263,6 +263,28 @@ Scenario: Verify navigation and product display for brand pages
     When User clicks on 'Add To Cart' for a recommended product
     And User clicks on 'View Cart' button from recommended product
     Then Recommended product should be visible in the cart page
+    
+ 
+
+   @Checkout_Address_Verification
+  Scenario: Verify address details in checkout page
+    Given User launches the browser
+    And User navigates to "http://automationexercise.com"
+    Then Home page should be visible successfully
+    When the user clicks on 'Signup / Login' button
+    And fills in all required details to create a new account
+    Then 'ACCOUNT CREATED!' message should be visible after successfull signup
+    And the user clicks the 'Continue' button after signup
+    Then 'Logged in as Rahul' should be visible at the top after signup
+    When the user adds products to the cart
+    And clicks the 'View Cart' button to check the cart
+    Then the cart page should be displayed
+    When the user clicks on 'Proceed To Checkout' for reviewing address
+    Then the delivery address should match the registration address
+    And the billing address should match the registration address
+    When the user clicks the 'Delete Account' button after reviewing address
+    Then 'ACCOUNT DELETED!' message should be displayed on page
+    And the user clicks the 'Continue' button finally
      
     
 

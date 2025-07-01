@@ -51,7 +51,7 @@ import org.testng.Assert;
 	    @FindBy(xpath = "//div[@id='cartModal']//div[@class='modal-content']")
 	    WebElement modalPopup;
 
-	    @FindBy(xpath = ".//a/u[normalize-space()='View Cart']")
+	    @FindBy(xpath = "//u[normalize-space()='View Cart']")
 	    WebElement viewCartLinkInsideModal;
 
 	    @FindBy(xpath = "//a[normalize-space()='Signup / Login']")
