@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="63.872" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-01T12:01:19.908694900Z">
-<testcase classname="Full Signup, Login, and Cleanup Flow" name="Verify address details in checkout page" time="63.169">
+<testsuite name="Cucumber" time="70.296" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T09:30:12.639650Z">
+<testcase classname="Full Signup, Login, and Cleanup Flow" name="Verify Scroll Up without 'Arrow' button and Scroll Down functionality" time="69.158">
 <system-out><![CDATA[
 Given User launches the browser.............................................passed
 And User navigates to "http://automationexercise.com".......................passed
 Then Home page should be visible successfully...............................passed
-When the user clicks on 'Signup / Login' button.............................passed
-And fills in all required details to create a new account...................passed
-Then 'ACCOUNT CREATED!' message should be visible after successfull signup..passed
-And the user clicks the 'Continue' button after signup......................passed
-Then 'Logged in as Rahul' should be visible at the top after signup.........passed
-When the user adds products to the cart.....................................passed
-And clicks the 'View Cart' button to check the cart.........................passed
-Then the cart page should be displayed......................................passed
-When the user clicks on 'Proceed To Checkout' for reviewing address.........passed
-Then the delivery address should match the registration address.............passed
-And the billing address should match the registration address...............passed
-When the user clicks the 'Delete Account' button after reviewing address....passed
-Then 'ACCOUNT DELETED!' message should be displayed on page.................passed
-And the user clicks the 'Continue' button finally...........................passed
+When user scrolls down to the bottom of the page............................passed
+Then user should see the "SUBSCRIPTION" section in ScrollNavigation.........passed
+When user scrolls back to the top of the page manually......................passed
+Then user should see the text "Full-Fledged practice website for Automation Engineers".passed
 ]]></system-out>
 </testcase>
 </testsuite>

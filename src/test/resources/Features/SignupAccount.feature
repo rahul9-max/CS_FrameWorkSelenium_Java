@@ -264,7 +264,6 @@ Scenario: Verify navigation and product display for brand pages
     And User clicks on 'View Cart' button from recommended product
     Then Recommended product should be visible in the cart page
     
- 
 
    @Checkout_Address_Verification
   Scenario: Verify address details in checkout page
@@ -286,6 +285,27 @@ Scenario: Verify navigation and product display for brand pages
     Then 'ACCOUNT DELETED!' message should be displayed on page
     And the user clicks the 'Continue' button finally
      
+  @ScrollNavigation
+  Scenario: Verify Scroll Up using 'Arrow' button and Scroll Down functionality
+    Given User launches the browser
+    And User navigates to "http://automationexercise.com"
+    Then Home page should be visible successfully
+    When user scrolls down to the bottom of the page
+    Then user should see the "SUBSCRIPTION" section in ScrollNavigation
+    When user clicks on the arrow at the bottom right of the screen
+    Then the page should scroll up
+    And user should see the text "Full-Fledged practice website for Automation Engineers"
+  
+  @ScrollWithoutArrow
+  Scenario: Verify Scroll Up without 'Arrow' button and Scroll Down functionality
+    Given User launches the browser
+    And User navigates to "http://automationexercise.com"
+    Then Home page should be visible successfully
+    When user scrolls down to the bottom of the page
+    Then user should see the "SUBSCRIPTION" section in ScrollNavigation
+    When user scrolls back to the top of the page manually
+    Then user should see the text "Full-Fledged practice website for Automation Engineers"
+  
     
 
   @teardown
